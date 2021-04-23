@@ -1,0 +1,21 @@
+POST http://localhost:4500/signup
+Content-Type: application/json
+
+{
+    "username":"insert a name",
+    "email":"insert a email",
+    "password":"insert a password"
+}
+
+###
+POST http://localhost:4500/signin
+Content-Type: application/json
+
+{
+    "email":"insert your email registered",
+    "password":"your password registered"
+}
+
+###
+GET http://localhost:4500/profile
+x-acccess-token: here your token provided
